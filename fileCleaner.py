@@ -1,6 +1,6 @@
 import os
 
-file_path = '/Users/syedh/Downloads/Lab0 waveform.png'
+file_path = '/Users/name/Downloads/filename' #example
 
 print(file_path)
 
