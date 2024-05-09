@@ -35,5 +35,13 @@ This Python script is designed to clean up a specified folder by moving a specif
 ### Usage
 1. Clone or download the script ***'fileMover.py'*** to your local computer.
 2. Open the script in a text editor and modify the following variables:
-cleaning_folder: The folder path from which you want to clean files.
-new_folder: The folder path where you want to move JPG files.
+   * ***'cleaning_folder'***: The folder path from which you want to clean files.
+   * ***'filename.endswith()'***: Change the type of files
+   * ***'new_folder'***: The folder path where you want to move the files.
+3. Run the Python script in the terminal.
+4. The script will iterate through the files in the cleaning folder. If it finds specified type of files, it will move them to the new folder. The rest of the files will be skipped.
+5. After running the script, check the specified new folder to ensure that the all the specified files have been successfully moved
+
+### Note
+1. Ensure that all the variables are changed and specified accordingly.
+2. Make sure the cleaning folder and the new folder exist.
