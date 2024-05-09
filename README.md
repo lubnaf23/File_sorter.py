@@ -21,3 +21,19 @@ This Python script is designed to remove particular file from the local computer
 ### Note
 1. Ensure that the ***'file_path'*** variable is accurately set to the path of the file you want to remove.
 2. Exercise caution when using this script, as it will permanently delete the specified file if it exists.
+
+## File Mover
+
+### Description
+This Python script is designed to clean up a specified folder by moving a specified type of files to another folder. It utilizes the ***'os'*** and ***'shutil'*** modules to iterate through files in a designated cleaning folder, identify specific type of files, and move them to a new folder.
+
+### Requirements
+* Python 3x
+* ***'os'*** module
+* ***'shutil'*** module
+
+### Usage
+1. Clone or download the script ***'fileMover.py'*** to your local computer.
+2. Open the script in a text editor and modify the following variables:
+cleaning_folder: The folder path from which you want to clean files.
+new_folder: The folder path where you want to move JPG files.
