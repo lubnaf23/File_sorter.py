@@ -1,6 +1,6 @@
 import os
 
-file_path = '/Users/name/Downloads/filename' #example
+file_path = '/Users/name/Downloads/filename' #example use local path
 
 print(file_path)
 
